@@ -1,6 +1,6 @@
 # DiagrammeR
 
-Até pouco tempo atrás, gastava horas e, às vezes, dias para construir os meus fluxogramas no Power Point ou no Canva. Depois que comecei a utilizar o pacote ['DiagrammeR'](https://rich-iannone.github.io/DiagrammeR/), consegui otimizar bastante o tempo que eu gastava nisso. A vantagem de usar esse pacote é que o fluxograma é feito no R utilizando a biblioteca 'mermaid.js' do JavaScript, com uma infraestrutura fornecida pelo htmlwidgets. Pode ser publicado em `.html` e incorporado em documentos R Markdown e Shiny. Também pode ser convertido para outros formato ou exportados como arquivos de imagem. O pacote também possibilita a construção outras visualizações gráficas como a rede de interações. 
+Até pouco tempo atrás, gastava horas e, às vezes, dias para construir os meus fluxogramas no Power Point ou no Canva. Depois que comecei a utilizar o pacote ['DiagrammeR'](https://rich-iannone.github.io/DiagrammeR/), consegui otimizar bastante o tempo que eu gastava nisso. A vantagem de usar esse pacote é que o fluxograma é feito no R utilizando a biblioteca `.mermaid.js` do JavaScript, com uma infraestrutura fornecida pelo `.htmlwidgets`. Pode ser publicado em `.html` e incorporado em documentos R Markdown e Shiny. Também pode ser convertido para outros formato ou exportados como arquivos de imagem. O pacote também possibilita a construção outras visualizações gráficas como a rede de interações. 
 
 Adaptei o fluxograma abaixo (Figura 1), misturando as informações contindas nos blog [SocialMente da Unicamp](https://www.blogs.unicamp.br/socialmente/2010/07/08/pseudociencias/) e [Intelligent Speculation](https://www.intelligentspeculation.com/blog/pseudoscience). O objetivo é compartilhar aqui como construir um fluxograma simples que posteriomente pode ser melhorado. 
 
@@ -30,7 +30,7 @@ install.packages("DiagrammeR") # Instalar
 
 # Entendendo a estrutura do código
 
-Depois de instalar o pacote, vamos abrí-lo é utilizando a função `.Diagrammer::` do pacote 'dplyr', que vem instalado junto o DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfica, neste caso caso um fluxograma.
+Depois de instalar o pacote, vamos abrí-lo é utilizando a função `.Diagrammer::` do pacote `.dplyr`, que vem instalado junto o DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfica, neste caso caso um fluxograma.
 
 ``` r
 
@@ -38,7 +38,7 @@ DiagrammeR::grViz("digraph {
 
 ```
 
-A estrutura do código é dividida em três funçoes principais: a do gráfico (graph), a das caixas (node) e a das linhas (edge). É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos costumizar o layout do gráfico, como por exemplo:
+A estrutura do código é dividida em três funçoes principais: a do gráfico `.graph`, a das caixas `.node` e a das linhas `.edge`. É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos costumizar o layout do gráfico, como por exemplo:
 
 - No gráfico, podemos definir o layout geral (se retrato ou paisagem) e a distância entre as caixas; 
 - Nas caixas, podemos editar os formatos e as cores dos polígonos; e, 
@@ -52,7 +52,7 @@ edge [color = black, arrowhead = vee, arrowsize = 25, penwidth = 15]
 
 ```
 
-Em seguida, vamos especificar quais serão as caixas e começar a nomeá-las. Neste caso, vamos abrir uma caixa para a 'Ciência' e outra para a 'Pseudociência'. O '\n'é opcional, utilizei para pular uma linha antes e depois da etiqueta, só para aumentar o espaço dentro das caixas. Repare que na função 'node' já especificamos a cor das caixas `.'fillcolor = Linen'`. Contudo, vamos editar a cor de cada caixa, neste caso para `. fillcolor = aliceblue`.
+Em seguida, vamos especificar quais serão as caixas e começar a nomeá-las. Neste caso, vamos abrir uma caixa para a 'Ciência' e outra para a 'Pseudociência'. O `.'\n'` é opcional, utilizei para pular uma linha antes e depois da etiqueta, só para aumentar o espaço dentro das caixas. Repare que na função `.'node'` já especificamos a cor das caixas `.'fillcolor = Linen'`. Também, podemos editar a cor de cada caixa aqui, neste caso mudamos para `. fillcolor = aliceblue`.
 
 ``` r
 
