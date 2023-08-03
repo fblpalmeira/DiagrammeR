@@ -145,6 +145,22 @@ h3 -> lei2 [minlen = 3];
 
 -----
 
+# Material básico
+
+Segue abaixo, uma lista de links com informações que podem nos ajudar na construção e na customização de fluxogramas com o pacote ' DiagrammeR'. 
+
+https://rich-iannone.github.io/DiagrammeR/articles/graphviz-mermaid.html
+https://www.sesync.org/resources/creating-visualizations-diagrammer
+https://mikeyharper.uk/flowcharts-in-r-using-diagrammer/
+
+# Material complementar
+
+Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo o link das páginas do Graphviz onde contêm informações adicionais que podem nos ajudar na customização do gráfico. Atenção, como esse material complementar faz parte da biblioteca do JavaScritpt, nem todas as funções se aplicam ao pacote do R, mas vale a pena testar!
+
+Para visualizar os tipos de polígonos: https://graphviz.org/doc/info/shapes.html
+Para visualizar os tipos de linhas: https://graphviz.org/doc/info/shapes.html
+Para visualizar o nome das cores: https://graphviz.org/doc/info/shapes.html
+
 # Referências
 
 [Iannone R (2023)](https://CRAN.R-project.org/package=DiagrammeR). _DiagrammeR: Graph/Network Visualization_. R package version 1.0.10, <https://CRAN.R-project.org/package=DiagrammeR>.
