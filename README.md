@@ -13,7 +13,12 @@ Confira também, o fluxograma publicado em `.html` no [RPubs](https://rpubs.com/
 
 # Código
 
+Confira e abaixe o código completo aqui:
+
 - [Código - DiagrammeR `.R`](https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_pseudoscience.R)
+
+
+# Instalar e abrir o pacote
 
 No `RStudio` instalar e abrir o pacote 'DiagrammeR':
 
@@ -24,21 +29,23 @@ library(DiagrammeR) # Abrir
 
 ```
 
-Outro jeito de abrir o pacote, depois de instalado, é utilizar  a função `.Diagrammer::`. A função `.grViz` define o tipo de visualização gráfica, implementada pelo [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. É dentro do `.graph` que podemos editar os argumentos da função. 
+# Entendendo a estrutura do código
+
+Depois de instalar o pacote, um outro jeito de abrí-lo é utilizando a função `.Diagrammer::` do pacote 'dplyr' que já vem instalado como um pacote dependente do DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfico, neste caso um fluxograma, afinal existem muitos tipos de gráficos que podem ser construídos utilizando o pacote.
 
 ``` r
 
 DiagrammeR::grViz("digraph {
 
-graph [ordering = in, nodesep = 6, ranksep = 8, layout = dot, rankdir = TB]
-
 ```
 
-xxxxxxxxx
-
+A estrutura do código é dividida em três funçoes principais: a do gráfico (graph), a das caixas (node) e a das linhas (edge). É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos construir diferentes visualizações gráficas. Na função do gráfico, podemos definir o layout geral e os temas do enredo. Na função das caixas, podemos editar os formatos e as cores das caixas e na das linhas, os tamanhos, os formatos das setas e as cores.
+  
 ``` r
 
+graph [ordering = in, nodesep = 6, ranksep = 8, layout = dot, rankdir = TB]
 node [fontcolor=gray35, fontname = Helvetica, shape = rectangle, style = filled, fillcolor = Linen, fontsize=500]
+edge [color = black, arrowhead = vee, arrowsize = 25, penwidth=15] 
 
 ```
 
