@@ -1,8 +1,8 @@
 # DiagrammeR
 
-Quando precisava, sempre fazia os meus fluxogramas utilizando o Power Point e, mais recentemente, o Canva. Gastava horas e, às vezes, dias para fazê-los. Depois que comecei a utilizar o pacote ['DiagrammeR'](https://rich-iannone.github.io/DiagrammeR/), consegui otimizar bastante esse tempo que eu gastava nisso. 
+Quando precisava, sempre fazia os meus fluxogramas utilizando o Power Point e, mais recentemente, o Canva. Gastava horas e, às vezes, dias para fazê-los. Depois que comecei a utilizar o pacote ['DiagrammeR'](https://rich-iannone.github.io/DiagrammeR/), consegui otimizar bastante esse tempo que eu gastava nisso.  
 
-Adaptei o fluxograma abaixo, misturando as informações contindas nos blog [SocialMente da Unicamp](https://www.blogs.unicamp.br/socialmente/2010/07/08/pseudociencias/) e [Intelligent Speculation](https://www.intelligentspeculation.com/blog/pseudoscience).
+Adaptei o fluxograma abaixo, misturando as informações contindas nos blog [SocialMente da Unicamp](https://www.blogs.unicamp.br/socialmente/2010/07/08/pseudociencias/) e [Intelligent Speculation](https://www.intelligentspeculation.com/blog/pseudoscience). O objetivo é compartilhar aqui como construir um fluxograma simples que posteriomente pode ser melhorado. 
 
 <img src="https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_figure.png">
 Figura 1. Fluxograma adaptado dos blogs Unicamp e Intelligent Speculation.
