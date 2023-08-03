@@ -97,24 +97,59 @@ No caso da 'Experimentação', abriremos apenas duas caixas, visto que apenas ex
 exp1 [label = 'Experimentação \n robusta \n ', shape = diamond, fillcolor = Beige]
 exp2 [label = 'Experimentação \n malfeita ou \n fraudulenta', shape = diamond, fillcolor = Beige]
 
+```
+
+Agora, vamos abrir apenas uma caixa para a 'Teoria', uma vez que ela existe e é discutida apenas pela 'Ciência'. Repare que editamos novamente o formato e a cor da caixa `.shape = circle, fillcolor = honeydew`. 
+
+``` r
+
+teo [label = '\n Teoria \n ', shape = circle, fillcolor = honeydew]
+
+```
+
+Abriremos mais duas caixas para representar a 'Lei' que serve de embasamento teórico tanto para a 'Ciência' como para a 'Pseudociência'.
+
+``` r
+
+lei1 [label = '\n    Lei     \n ', shape = cylinder, fillcolor = lightcyan]
+lei2 [label = '\n    Lei     \n ', shape = cylinder, fillcolor = lightcyan]
+
+```
+
+Finalizamos a etapa construção de caixinhas descritas com suas devidas etiquetas! Agora vamos, ligar as caixas com as linhas. Primeiro, vamos ligar as caixas da 'Ciência Boa' e depois as caixas da 'Ciência Ruim'. Como a elaboração da 'Teoria' nos traz novos questionamentos e nos leva a conduzir novos 'Experimentos', em um looping quae infinito, vamos acrescentar uma seta de volta da 'Teoria' para o 'Experimento' para ambas as Ciências, Boa e Ruim e destacá-las em vermelho `[dir = back, color = red]`.  
+ 
+
+``` r
+
+data1 -> sci1 -> obs1 -> h1 -> exp1;
+exp1 -> teo [arrowhead = normal, color = red];
+exp1 -> teo [dir = back, color = red];
+
+data1 -> sci2 -> obs2 -> h2 -> exp2;
+exp2 -> teo [arrowhead = normal, color = red];
+exp2 -> teo [dir = back, color = red];
+
+teo -> lei1;
+
+```
+
+Agora, vamos unir as caixas da 'Pseudociência'. Repare que utilizamos a função `[minlen = 2]` para editar o comprimento da linha, com a finalidade de ficar estéticamente simétrico com as caixas da 'Ciência' facilitando a comparação entre elas.
+
+``` r
+
+data2 -> obs3 [minlen = 2];
+obs3 -> h3;
+h3 -> lei2 [minlen = 3];
+
 ``` 
 
-SSS
+Finalmente, podemos encerrar o código.
+
 ``` r
-```
-SSS
-``` r
-```
-SSS
-``` r
-```
-SSS
-``` r
+
+}")
+
 ``` 
-
-
-
-
 
 -----
 
