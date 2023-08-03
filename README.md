@@ -2,7 +2,7 @@
 
 Até pouco tempo atrás, gastava horas e, às vezes, dias para construir os meus fluxogramas no PowerPoint ou no Canva. Depois que comecei a utilizar o pacote ['DiagrammeR'](https://rich-iannone.github.io/DiagrammeR/), consegui otimizar bastante o tempo que eu gastava nisso. A vantagem de usar esse pacote é que o fluxograma é feito no R utilizando a biblioteca `.mermaid.js` do JavaScript, com uma infraestrutura fornecida pelo `.htmlwidgets`. Pode ser publicado em `.html` e incorporado em documentos R Markdown e Shiny. Também pode ser convertido para outros formatos ou exportados como arquivos de imagem. O pacote também possibilita a construção de outras visualizações gráficas como a rede de interações. 
 
-Adaptei o fluxograma abaixo (Figura 1), misturando as informações contidas nos blog [SocialMente da Unicamp](https://www.blogs.unicamp.br/socialmente/2010/07/08/pseudociencias/) e [Intelligent Speculation](https://www.intelligentspeculation.com/blog/pseudoscience). Certamente, o exemplo poderia ser mais complexo mas, o nosso objetivo é aprender a construir um fluxograma simples (e que posteriormente pode ser melhorado). Confira também, o fluxograma em `.html` no [RPubs](https://rpubs.com/fblpalmeira/1068497)
+Adaptei o fluxograma abaixo (Figura 1), misturando as informações contidas nos blog [SocialMente da Unicamp](https://www.blogs.unicamp.br/socialmente/2010/07/08/pseudociencias/) e [Intelligent Speculation](https://www.intelligentspeculation.com/blog/pseudoscience). Certamente, o exemplo poderia ser mais complexo mas, o nosso objetivo é aprender a construir um fluxograma simples e, que posteriormente, pode ser melhorado. Confira também, o fluxograma em `.html` no [RPubs](https://rpubs.com/fblpalmeira/1068497)
 
 <img src="https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_figure.png">
 Figura 1. Fluxograma adaptado dos blogs Unicamp e Intelligent Speculation.
@@ -160,8 +160,8 @@ Segue abaixo, uma lista de links com informações que podem nos ajudar na const
 Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo o link das páginas do Graphviz onde contêm informações adicionais que podem nos ajudar na customização do gráfico. Atenção, como esse material complementar faz parte da biblioteca do JavaScritpt, nem todas as funções se aplicam ao pacote do R, mas vale a pena testar!
 
 - Para visualizar os tipos de polígonos: https://graphviz.org/doc/info/shapes.html
-- Para visualizar os tipos de linhas: https://graphviz.org/doc/info/shapes.html
-- Para visualizar o nome das cores: https://graphviz.org/doc/info/shapes.html
+- Para visualizar os tipos de linhas: https://graphviz.org/doc/info/arrows.html
+- Para visualizar o nome das cores: https://graphviz.org/doc/info/colors.html
 
 -----
 
