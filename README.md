@@ -145,17 +145,17 @@ h3 -> lei2 [minlen = 3];
 
 -----
 
-# Material básico
+# Material básico no R
 
 Segue abaixo, uma lista de links com informações que podem nos ajudar na construção e na customização de fluxogramas com o pacote ' DiagrammeR'. 
 
-https://rich-iannone.github.io/DiagrammeR/articles/graphviz-mermaid.html
-https://www.sesync.org/resources/creating-visualizations-diagrammer
-https://mikeyharper.uk/flowcharts-in-r-using-diagrammer/
+- Para visualizar os tipos de polígonos: https://rich-iannone.github.io/DiagrammeR/articles/graphviz-mermaid.html
+- Para visualizar os tipos de linhas: https://www.sesync.org/resources/creating-visualizations-diagrammer
+- Para visualizar o nome das cores: https://mikeyharper.uk/flowcharts-in-r-using-diagrammer/
 
 -----
 
-# Material complementar
+# Material complementar no JavaScript
 
 Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo o link das páginas do Graphviz onde contêm informações adicionais que podem nos ajudar na customização do gráfico. Atenção, como esse material complementar faz parte da biblioteca do JavaScritpt, nem todas as funções se aplicam ao pacote do R, mas vale a pena testar!
 
