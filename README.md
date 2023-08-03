@@ -24,8 +24,56 @@ library(DiagrammeR) # Abrir
 
 ```
 
+kjkjkj
 
+``` r
 
+DiagrammeR::grViz("digraph {
+
+graph [ordering = in, nodesep = 6, ranksep = 8, layout = dot, rankdir = TB]
+
+```
+
+xxxxxxxxx
+
+``` r
+
+node [fontcolor=gray35, fontname = Helvetica, shape = rectangle, style = filled, fillcolor = Linen, fontsize=500]
+
+```
+
+xxxxxxxxx
+
+``` r
+
+edge [color = black, arrowhead = vee, arrowsize = 25, penwidth=15] 
+
+```
+
+xxxxxxxxx
+
+``` r
+
+data1 [label = '\n     Ciência     \n ', shape = rect, fillcolor = aliceblue]
+data2 [label = '\n Pseudociência \n ', shape = rect, fillcolor = aliceblue]
+
+```
+
+xxxxxxxxx
+
+``` r
+
+```
+xxxxxxxxx
+
+``` r
+
+```
+xxxxxxxxx
+
+``` r
+
+``` 
 -----
 
 # Referências
