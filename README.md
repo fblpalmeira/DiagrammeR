@@ -157,9 +157,9 @@ https://mikeyharper.uk/flowcharts-in-r-using-diagrammer/
 
 Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo o link das páginas do Graphviz onde contêm informações adicionais que podem nos ajudar na customização do gráfico. Atenção, como esse material complementar faz parte da biblioteca do JavaScritpt, nem todas as funções se aplicam ao pacote do R, mas vale a pena testar!
 
-Para visualizar os tipos de polígonos: https://graphviz.org/doc/info/shapes.html
-Para visualizar os tipos de linhas: https://graphviz.org/doc/info/shapes.html
-Para visualizar o nome das cores: https://graphviz.org/doc/info/shapes.html
+- Para visualizar os tipos de polígonos: https://graphviz.org/doc/info/shapes.html
+- Para visualizar os tipos de linhas: https://graphviz.org/doc/info/shapes.html
+- Para visualizar o nome das cores: https://graphviz.org/doc/info/shapes.html
 
 # Referências
 
