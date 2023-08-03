@@ -7,13 +7,13 @@ Adaptei o fluxograma abaixo (Figura 1), misturando as informações contidas nos
 <img src="https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_figure.png">
 Figura 1. Fluxograma adaptado dos blogs Unicamp e Intelligent Speculation.
 
-Confira também, o fluxograma publicado em `.html` no [RPubs](https://rpubs.com/fblpalmeira/1068497)
+- Confira também, o fluxograma publicado em `.html` no [RPubs](https://rpubs.com/fblpalmeira/1068497)
   
 -----
 
 # Código
 
-Confira e abaixe o código completo aqui:
+Confira e baixe o código completo aqui:
 
 - [Código - DiagrammeR `.R`](https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_pseudoscience.R)
 
