@@ -70,7 +70,7 @@ sci2 [label = '\n     Ruim     \n ', fillcolor = aliceblue]
 
 ```
 
-Em seguida, vamos inserir três caixa para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'.
+Em seguida, vamos inserir três caixa para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'. Repare que editamos o formato do polígono para `.shape = ellipse` destacando melhor as diferenças e as semelhanças das caixas dentro do fluxograma. 
 
 ``` r
 
@@ -90,7 +90,7 @@ h3 [label = 'Hipóteses com \n premissas fracas \n ou inválidas', shape = ellip
 
 ```
 
-No caso da 'Experimentação', abriremos apenas duas caixas, visto que apenas existem dentro da 'Ciência'. No caso da 'Ciência Boa', temos uma 'Experimentação robusta' e no da 'Ciência Ruim', uma 'Experimentação malfeita ou fraudulenta'.
+No caso da 'Experimentação', abriremos apenas duas caixas, visto que apenas existem dentro da 'Ciência'. No caso da 'Ciência Boa', temos uma 'Experimentação robusta' e no da 'Ciência Ruim', uma 'Experimentação malfeita ou fraudulenta'. Repare aqui, que editamos tanto o formato e a cor do polígono `.shape = diamond, fillcolor = Beige`. 
 
 ``` r
 
