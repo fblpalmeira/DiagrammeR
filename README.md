@@ -133,19 +133,13 @@ teo -> lei1;
 
 ```
 
-Agora, vamos unir as caixas da 'Pseudociência'. Repare que utilizamos a função `[minlen = 2]` para editar o comprimento da linha entre as caixas e ficar esteticamente simétrico com a 'Ciência' facilitando a comparação entre elas.
+Agora, vamos unir as caixas da 'Pseudociência'. Repare que utilizamos a função `[minlen = 2]` para editar o comprimento da linha entre as caixas e ficar esteticamente simétrico com a 'Ciência' facilitando a comparação entre elas. Para finalizar, vamos encerrar o código `.}")`.
 
 ``` r
 
 data2 -> obs3 [minlen = 2];
 obs3 -> h3;
 h3 -> lei2 [minlen = 3];
-
-``` 
-
-Finalmente, podemos encerrar o código.
-
-``` r
 
 }")
 
