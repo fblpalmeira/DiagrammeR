@@ -149,9 +149,9 @@ h3 -> lei2 [minlen = 3];
 
 Segue abaixo, uma lista de links com informações que podem nos ajudar na construção e na customização de fluxogramas com o pacote ' DiagrammeR'. 
 
-- Para visualizar os tipos de polígonos: https://rich-iannone.github.io/DiagrammeR/articles/graphviz-mermaid.html
-- Para visualizar os tipos de linhas: https://www.sesync.org/resources/creating-visualizations-diagrammer
-- Para visualizar o nome das cores: https://mikeyharper.uk/flowcharts-in-r-using-diagrammer/
+- https://rich-iannone.github.io/DiagrammeR/articles/graphviz-mermaid.html
+- https://www.sesync.org/resources/creating-visualizations-diagrammer
+- https://mikeyharper.uk/flowcharts-in-r-using-diagrammer/
 
 -----
 
