@@ -18,20 +18,19 @@ Confira e abaixe o código completo aqui:
 - [Código - DiagrammeR `.R`](https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_pseudoscience.R)
 
 
-# Instalar e abrir o pacote
+# Instalar o pacote
 
-No `RStudio` instalar e abrir o pacote 'DiagrammeR':
+No `RStudio` instalar o pacote 'DiagrammeR':
 
 ``` r
 
 install.packages("DiagrammeR") # Instalar 
-library(DiagrammeR) # Abrir 
 
 ```
 
 # Entendendo a estrutura do código
 
-Depois de instalar o pacote, um outro jeito de abrí-lo é utilizando a função `.Diagrammer::` do pacote 'dplyr' que já vem instalado como um pacote dependente do DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfico, neste caso um fluxograma, afinal existem muitos tipos de gráficos que podem ser construídos utilizando o pacote.
+Depois de instalar o pacote, vamos abrí-lo é utilizando a função `.Diagrammer::` do pacote 'dplyr', que vem instalado junto o DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfica, neste caso caso um fluxograma.
 
 ``` r
 
