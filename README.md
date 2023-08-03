@@ -38,13 +38,17 @@ DiagrammeR::grViz("digraph {
 
 ```
 
-A estrutura do código é dividida em três funçoes principais: a do gráfico (graph), a das caixas (node) e a das linhas (edge). É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos construir diferentes visualizações gráficas. Na função do gráfico, podemos definir o layout geral e os temas do enredo. Na função das caixas, podemos editar os formatos e as cores das caixas e na das linhas, os tamanhos, os formatos das setas e as cores.
+A estrutura do código é dividida em três funçoes principais: a do gráfico (graph), a das caixas (node) e a das linhas (edge). É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos costumizar o layout do gráfico, como por exemplo:
+
+- No gráfico, podemos definir o layout geral (se retrato ou paisagem) e a distância entre as caixas; 
+- Nas caixas, podemos editar os formatos e as cores dos polígonos e 
+- Nas linhas, os tamanhos, os formatos e as cores das setas.
   
 ``` r
 
 graph [ordering = in, nodesep = 6, ranksep = 8, layout = dot, rankdir = TB]
-node [fontcolor=gray35, fontname = Helvetica, shape = rectangle, style = filled, fillcolor = Linen, fontsize=500]
-edge [color = black, arrowhead = vee, arrowsize = 25, penwidth=15] 
+node [fontcolor = gray35, fontname = Helvetica, shape = rectangle, style = filled, fillcolor = Linen, fontsize = 500]
+edge [color = black, arrowhead = vee, arrowsize = 25, penwidth = 15] 
 
 ```
 
@@ -52,7 +56,7 @@ xxxxxxxxx
 
 ``` r
 
-edge [color = black, arrowhead = vee, arrowsize = 25, penwidth=15] 
+edge [color = black, arrowhead = vee, arrowsize = 25, penwidth = 15] 
 
 ```
 
