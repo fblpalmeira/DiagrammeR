@@ -41,8 +41,8 @@ DiagrammeR::grViz("digraph {
 A estrutura do código é dividida em três funçoes principais: a do gráfico (graph), a das caixas (node) e a das linhas (edge). É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos costumizar o layout do gráfico, como por exemplo:
 
 - No gráfico, podemos definir o layout geral (se retrato ou paisagem) e a distância entre as caixas; 
-- Nas caixas, podemos editar os formatos e as cores dos polígonos e 
-- Nas linhas, os tamanhos, os formatos e as cores das setas.
+- Nas caixas, podemos editar os formatos e as cores dos polígonos; e, 
+- Nas linhas, os tamanhos, os formatos e as cores das setas, entre outras possibilidades.
   
 ``` r
 
@@ -52,20 +52,12 @@ edge [color = black, arrowhead = vee, arrowsize = 25, penwidth = 15]
 
 ```
 
-xxxxxxxxx
+Em seguida, vamos especificar quais serão as caixas e começar a nomeá-las. Neste caso, vamos abrir uma caixa para a 'Ciência' e outra para a 'Pseudociência'. O '\n'é opcional, utilizei para pular uma linha antes e depois da etiqueta, só para aumentar o espaço dentro das caixas. Repare que na função 'node' já especificamos a cor das caixas `.'fillcolor = Linen'`. Contudo, vamos editar a cor de cada caixa, neste caso para `. fillcolor = aliceblue`.
 
 ``` r
 
-edge [color = black, arrowhead = vee, arrowsize = 25, penwidth = 15] 
-
-```
-
-xxxxxxxxx
-
-``` r
-
-data1 [label = '\n     Ciência     \n ', shape = rect, fillcolor = aliceblue]
-data2 [label = '\n Pseudociência \n ', shape = rect, fillcolor = aliceblue]
+data1 [label = '\n     Ciência     \n ', fillcolor = aliceblue]
+data2 [label = '\n Pseudociência \n ', fillcolor = aliceblue]
 
 ```
 
