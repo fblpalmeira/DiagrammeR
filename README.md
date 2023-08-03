@@ -61,19 +61,32 @@ data2 [label = '\n Pseudociência \n ', fillcolor = aliceblue]
 
 ```
 
-xxxxxxxxx
+Agora, vamos especificar que tipo de 'Ciência' nós fazemos. Neste caso, temos duas, uma 'Boa' e uma 'Ruim'.
 
 ``` r
+
+sci1 [label = '\n     Boa     \n ', fillcolor = aliceblue]
+sci2 [label = '\n     Ruim     \n ', fillcolor = aliceblue]
 
 ```
-xxxxxxxxx
+
+Em seguida, vamos inserir três caixa para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'.
 
 ``` r
+
+obs1 [label = '\n Observação \n ', shape = ellipse]
+obs2 [label = '\n Observação \n ', shape = ellipse]
+obs3 [label = '\n Observação \n ', shape = ellipse]
 
 ```
-xxxxxxxxx
+
+Assim como na 'Observação', vamos inserir três caixas para as 'Hipóteses' que também são formuladas na 'Ciência Boa', na 'Ciência Ruim' e na 'Pseudocência'. 
 
 ``` r
+
+h1 [label = 'Hipóteses \n com \n fortes premissas', shape = ellipse]
+h2 [label = 'Hipóteses \n com \n fortes premissas', shape = ellipse]
+h3 [label = 'Hipóteses com \n premissas fracas \n ou inválidas', shape = ellipse]
 
 ``` 
 -----
