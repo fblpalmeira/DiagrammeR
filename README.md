@@ -20,7 +20,7 @@ Confira e baixe o código completo aqui:
 
 # Instalar o pacote
 
-No `RStudio` instalar o pacote 'DiagrammeR':
+No `RStudio`, instalar o pacote 'DiagrammeR':
 
 ``` r
 
@@ -30,7 +30,7 @@ install.packages("DiagrammeR") # Instalar
 
 # Entendendo a estrutura do código
 
-Depois de instalar o pacote, vamos abrí-lo é utilizando a função `.Diagrammer::` do pacote `.dplyr`, que vem instalado junto o DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfica, neste caso caso um fluxograma.
+Após instalar o pacote, vamos abri-lo utilizando a função `.Diagrammer::` do pacote `.dplyr`, que já vem instalado com o DiagrammeR. A função `.grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `.digraph` define o tipo de visualização gráfica, neste caso um fluxograma.
 
 ``` r
 
@@ -38,7 +38,7 @@ DiagrammeR::grViz("digraph {
 
 ```
 
-A estrutura do código é dividida em três funçoes principais: a do gráfico `.graph`, a das caixas `.node` e a das linhas `.edge`. É dentro de cada uma dessas funções que tem os argumentos que devem ser editados para podermos costumizar o layout do gráfico, como por exemplo:
+A estrutura do código é dividida em três funções principais: a do gráfico `.graph`, a das caixas `.node` e a das linhas `.edge`. É dentro de cada uma dessas funções que editamos os argumentos para customizar o layout do gráfico como, por exemplo:
 
 - No gráfico, podemos definir o layout geral (se retrato ou paisagem) e a distância entre as caixas; 
 - Nas caixas, podemos editar os formatos e as cores dos polígonos; e, 
