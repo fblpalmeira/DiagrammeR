@@ -70,7 +70,7 @@ sci2 [label = '\n     Ruim     \n ', fillcolor = aliceblue]
 
 ```
 
-Em seguida, vamos inserir três caixa para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'. Repare que editamos o formato do polígono para `.shape = ellipse` destacando melhor as diferenças e as semelhanças das caixas dentro do fluxograma. 
+Em seguida, vamos inserir três caixas para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'. Repare que editamos o formato do polígono para `.shape = ellipse` para poder destacar melhor as diferenças e as semelhanças das caixas dentro do fluxograma. 
 
 ``` r
 
@@ -80,7 +80,7 @@ obs3 [label = '\n Observação \n ', shape = ellipse]
 
 ```
 
-Assim como na 'Observação', vamos inserir três caixas para as 'Hipóteses' que também são formuladas na 'Ciência Boa', na 'Ciência Ruim' e na 'Pseudocência'. 
+Assim como na 'Observação', vamos inserir três caixas para as 'Hipóteses' que também são formuladas tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'. 
 
 ``` r
 
@@ -90,7 +90,7 @@ h3 [label = 'Hipóteses com \n premissas fracas \n ou inválidas', shape = ellip
 
 ```
 
-No caso da 'Experimentação', abriremos apenas duas caixas, visto que apenas existem dentro da 'Ciência'. No caso da 'Ciência Boa', temos uma 'Experimentação robusta' e no da 'Ciência Ruim', uma 'Experimentação malfeita ou fraudulenta'. Repare aqui, que editamos tanto o formato e a cor do polígono `.shape = diamond, fillcolor = Beige`. 
+No caso da 'Experimentação', abriremos duas caixas, visto que existem apenas dentro da 'Ciência'. No caso da 'Ciência Boa', temos uma 'Experimentação robusta' e no da 'Ciência Ruim', uma 'Experimentação malfeita ou fraudulenta'. Repare aqui, que editamos o formato e a cor do polígono `.shape = diamond, fillcolor = Beige`. 
 
 ``` r
 
@@ -99,7 +99,7 @@ exp2 [label = 'Experimentação \n malfeita ou \n fraudulenta', shape = diamond,
 
 ```
 
-Agora, vamos abrir apenas uma caixa para a 'Teoria', uma vez que ela existe e é discutida apenas pela 'Ciência'. Repare que editamos novamente o formato e a cor da caixa `.shape = circle, fillcolor = honeydew`. 
+Agora, vamos abrir apenas uma caixa para a 'Teoria', uma vez que ela existe e é discutida apenas na 'Ciência'. Repare que editamos novamente o formato e a cor da caixa `.shape = circle, fillcolor = honeydew`. 
 
 ``` r
 
@@ -107,7 +107,7 @@ teo [label = '\n Teoria \n ', shape = circle, fillcolor = honeydew]
 
 ```
 
-Abriremos mais duas caixas para representar a 'Lei' que serve de embasamento teórico tanto para a 'Ciência' como para a 'Pseudociência'.
+Abriremos mais duas caixas para representar a 'Lei' que também serve de embasamento teórico tanto para a 'Ciência' como para a 'Pseudociência'.
 
 ``` r
 
@@ -116,7 +116,7 @@ lei2 [label = '\n    Lei     \n ', shape = cylinder, fillcolor = lightcyan]
 
 ```
 
-Finalizamos a etapa construção de caixinhas descritas com suas devidas etiquetas! Agora vamos, ligar as caixas com as linhas. Primeiro, vamos ligar as caixas da 'Ciência Boa' e depois as caixas da 'Ciência Ruim'. Como a elaboração da 'Teoria' nos traz novos questionamentos e nos leva a conduzir novos 'Experimentos', em um looping quae infinito, vamos acrescentar uma seta de volta da 'Teoria' para o 'Experimento' para ambas as Ciências, Boa e Ruim e destacá-las em vermelho `[dir = back, color = red]`.  
+Finalizamos a etapa da construção de caixinhas descritas com suas devidas etiquetas! Agora, vamos ligar as caixas com as linhas. Primeiro, vamos ligar as caixas da 'Ciência Boa' e depois as caixas da 'Ciência Ruim'. Como a elaboração da 'Teoria' traz novos questionamentos e nos leva a conduzir novos 'Experimentos' (em um looping quase infinito), vamos acrescentar uma seta de volta da 'Teoria' para o 'Experimento' para ambas as Ciências, Boa e Ruim e destacá-las em vermelho `[dir = back, color = red]`.  
  
 
 ``` r
@@ -133,7 +133,7 @@ teo -> lei1;
 
 ```
 
-Agora, vamos unir as caixas da 'Pseudociência'. Repare que utilizamos a função `[minlen = 2]` para editar o comprimento da linha, com a finalidade de ficar estéticamente simétrico com as caixas da 'Ciência' facilitando a comparação entre elas.
+Agora, vamos unir as caixas da 'Pseudociência'. Repare que utilizamos a função `[minlen = 2]` para editar o comprimento da linha entre as caixas e ficar esteticamente simétrico com a 'Ciência' facilitando a comparação entre elas.
 
 ``` r
 
