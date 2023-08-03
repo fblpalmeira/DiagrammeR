@@ -88,7 +88,34 @@ h1 [label = 'Hipóteses \n com \n fortes premissas', shape = ellipse]
 h2 [label = 'Hipóteses \n com \n fortes premissas', shape = ellipse]
 h3 [label = 'Hipóteses com \n premissas fracas \n ou inválidas', shape = ellipse]
 
+```
+
+No caso da 'Experimentação', abriremos apenas duas caixas, visto que apenas existem dentro da 'Ciência'. No caso da 'Ciência Boa', temos uma 'Experimentação robusta' e no da 'Ciência Ruim', uma 'Experimentação malfeita ou fraudulenta'.
+
+``` r
+
+exp1 [label = 'Experimentação \n robusta \n ', shape = diamond, fillcolor = Beige]
+exp2 [label = 'Experimentação \n malfeita ou \n fraudulenta', shape = diamond, fillcolor = Beige]
+
 ``` 
+
+SSS
+``` r
+```
+SSS
+``` r
+```
+SSS
+``` r
+```
+SSS
+``` r
+``` 
+
+
+
+
+
 -----
 
 # Referências
