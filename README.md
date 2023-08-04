@@ -159,7 +159,7 @@ Segue abaixo, uma lista de links com informações que podem nos ajudar na const
 
 # Material complementar no JavaScript
 
-Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo o link das páginas do Graphviz com informações adicionais que podem nos ajudar na customização do gráfico. Atenção, como esse material complementar faz parte da biblioteca do JavaScritpt, nem todas as funções se aplicam ao pacote do R, mas vale a pena testar!
+Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo o link das páginas do Graphviz com informações adicionais que podem nos ajudar na customização. Atenção, como esse material complementar faz parte da biblioteca do JavaScritpt, nem todas as funções se aplicam ao pacote do R, mas algumas delas funcionam. Em caso de emergência, vale a pena tentar!
 
 - Para visualizar os tipos de polígonos: https://graphviz.org/doc/info/shapes.html
 - Para visualizar os tipos de linhas: https://graphviz.org/doc/info/arrows.html
@@ -169,4 +169,4 @@ Como o material disponível para o pacote 'DiagrammeR' é escasso, segue abaixo 
 
 # Referência
 
-[Iannone R (2023)](https://CRAN.R-project.org/package=DiagrammeR). _DiagrammeR: Graph/Network Visualization_. R package version 1.0.10, <https://CRAN.R-project.org/package=DiagrammeR>.
+Iannone R (2023). _DiagrammeR: Graph/Network Visualization_. R package version 1.0.10, <https://CRAN.R-project.org/package=DiagrammeR>.
