@@ -50,7 +50,7 @@ edge [color = black, arrowhead = vee, arrowsize = 25, penwidth = 15]
 
 ```
 
-Em seguida, vamos especificar quais serão as caixas e começar a nomeá-las. Neste caso, vamos abrir uma caixa para a 'Ciência' e outra para a 'Pseudociência'. O `'\n'` é opcional, utilizei para pular uma linha antes e depois da etiqueta, só para aumentar o espaço dentro das caixas. Repare que na função `'node'` já especificamos a cor das caixas `fillcolor = Linen`. Também, podemos editar a cor de cada caixa aqui, neste caso mudamos para `fillcolor = aliceblue`.
+Em seguida, vamos especificar quais serão as caixas e começar a nomeá-las. Neste caso, vamos abrir uma caixa para a 'Ciência' e outra para a 'Pseudociência'. O `\n` é opcional, utilizei para pular uma linha antes e depois da etiqueta, só para aumentar o espaço dentro das caixas. Repare que na função `node` já especificamos a cor das caixas `fillcolor = Linen`. Também, podemos editar a cor de cada caixa aqui, neste caso mudamos para `fillcolor = aliceblue`.
 
 ``` r
 
