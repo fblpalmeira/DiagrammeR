@@ -38,9 +38,9 @@ DiagrammeR::grViz("digraph {
 
 A estrutura do código é dividida em três funções principais: a do gráfico `graph`, a das caixas `node` e a das linhas `edge`. É dentro de cada uma dessas funções que editamos os argumentos para customizar o fluxograma como, por exemplo:
 
-- No gráfico `graph`, podemos definir o layout geral (se retrato ou paisagem) e a distância entre as caixas; 
-- Nas caixas `node`, podemos editar os formatos e as cores dos polígonos; e, 
-- Nas linhas `edge`, os tamanhos, os formatos e as cores das setas, entre outras possibilidades.
+- No gráfico `graph`, definimos o layout geral (se retrato ou paisagem) e a distância entre as caixas; 
+- Nas caixas `node`, definimos os formatos e as cores dos polígonos; e, 
+- Nas linhas `edge`, definimos os tamanhos, os formatos e as cores das setas, entre outras possibilidades.
   
 ``` r
 
