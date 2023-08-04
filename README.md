@@ -28,7 +28,7 @@ install.packages("DiagrammeR") # Instalar
 
 # Entendendo a estrutura do código
 
-Após instalar o pacote, vamos abri-lo utilizando a função `Diagrammer::` do pacote `dplyr`, que já vem instalado com o DiagrammeR. A função `grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. A função `digraph` define o tipo de visualização gráfica, neste caso um fluxograma.
+Após instalar o pacote, vamos abri-lo utilizando a função `Diagrammer::` do pacote `dplyr`, que já vem instalado com o DiagrammeR. A função `grViz` faz a interface com o [Graphviz](https://www.graphviz.org/), um software de visualização de gráficos de código aberto. Para fazer o fluxograma, vamos utilizar a função `digraph`.
 
 ``` r
 
