@@ -5,7 +5,7 @@ Até pouco tempo atrás, gastava horas e, às vezes, dias para construir os meus
 Adaptei o fluxograma abaixo (Figura 1), misturando as informações contidas nos blog [SocialMente da Unicamp](https://www.blogs.unicamp.br/socialmente/2010/07/08/pseudociencias/) e [Intelligent Speculation](https://www.intelligentspeculation.com/blog/pseudoscience). Certamente, o exemplo poderia ser mais complexo mas, o nosso objetivo é aprender a construir um fluxograma simples e, que posteriormente, pode ser melhorado. Confira também o fluxograma em `.html` no [RPubs](https://rpubs.com/fblpalmeira/1068497)
 
 <img src="https://github.com/fblpalmeira/DiagrammeR/blob/main/data/diagrammer_figure.png">
-Figura 1. Fluxograma adaptado dos blogs Unicamp e Intelligent Speculation.
+Figura 1. Fluxograma adaptado dos blogs SocialMente da Unicamp e Intelligent Speculation.
   
 -----
 
