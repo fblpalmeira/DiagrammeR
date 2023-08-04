@@ -105,7 +105,7 @@ teo [label = '\n Teoria \n ', shape = circle, fillcolor = honeydew]
 
 ```
 
-Abriremos mais duas caixas para representar a 'Lei' que também serve de embasamento teórico tanto para a 'Ciência' como para a 'Pseudociência'.
+Abriremos mais duas caixas para a 'Lei', uma para a 'Ciência' e outra para a 'Pseudociência'.
 
 ``` r
 
