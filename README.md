@@ -116,7 +116,7 @@ lei2 [label = '\n    Lei     \n ', shape = cylinder, fillcolor = lightcyan]
 
 # Unindo as caixas com as linhas 
 
-Finalizamos a etapa da construção das caixas. Agora, vamos ligar as caixas com as linhas. Primeiro, vamos ligar as caixas da 'Ciência Boa' e depois as caixas da 'Ciência Ruim'. Como a elaboração da 'Teoria' traz novos questionamentos e nos leva a conduzir novos 'Experimentos' (em um looping quase infinito), vamos acrescentar uma seta de volta da 'Teoria' para o 'Experimento' para ambas as Ciências, Boa e Ruim e destacá-las em vermelho `[dir = back, color = red]`.  
+Primeiro, vamos ligar as caixas da 'Ciência Boa' e depois as caixas da 'Ciência Ruim'. Como a elaboração da 'Teoria' traz novos questionamentos e nos leva a conduzir novos 'Experimentos' (em um looping quase infinito), vamos acrescentar uma seta de volta da 'Teoria' para o 'Experimento' para ambas as Ciências, Boa e Ruim e destacá-las em vermelho `[dir = back, color = red]`.  
  
 
 ``` r
