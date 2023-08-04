@@ -68,7 +68,7 @@ sci2 [label = '\n     Ruim     \n ', fillcolor = aliceblue]
 
 ```
 
-Em seguida, vamos inserir três caixas para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'. Repare que editamos o formato do polígono para `shape = ellipse` para poder destacar melhor as diferenças e as semelhanças das caixas dentro do fluxograma. 
+Em seguida, vamos inserir três caixas para a 'Observação' visto que o processo observacional existe tanto na 'Ciência Boa', como na 'Ciência Ruim' e na 'Pseudocência'. Repare que editamos o formato do polígono para `shape = ellipse` para destacar melhor as diferenças e as semelhanças das caixas dentro do fluxograma. 
 
 ``` r
 
